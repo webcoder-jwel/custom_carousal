@@ -1,0 +1,54 @@
+/* Global area */
+*{
+	margin:0;
+	padding: 0;
+	font-family: sans-serif;
+}
+/* Global area */
+.custom-btn {
+	color: #8c17b8;
+	border-color: #bbe417;
+	padding: 20px 35px;
+	font-size: 25px;
+	border-radius: 25px;
+}
+.custom-btn:hover{
+	background-color: #bbe417;
+	border-color: #bbe417;
+}
+.carousal{
+	background-image: url(../images/3.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.custom_slider{
+	background-color: rgba(122, 122, 122, .5);
+	color:#fff;
+	padding: 45px 65px;
+	text-align: center;
+}
+.custom_slider h1{
+    font-size: 25px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    }
+.custom_slider p{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.custom_slider button{
+    margin-bottom: 50px;
+}
+.indecator {
+	bottom: 20px;
+}
+.indecator li {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: rgba(29, 30, 42, 0.94);
+}
+.indecator .active {
+	background-color: #1ac540;
+}
